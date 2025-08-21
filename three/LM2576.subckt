@@ -1,0 +1,5 @@
+* super-simplified LM2576-5 (outputs 5V if input >7V)
+.subckt LM2576T5 VIN SW GND VOUT FB
+Ereg VOUT GND VALUE = { V(VIN,GND) > 7 ? 5 : V(VIN,GND)-2 }
+Rout VOUT GND 0.05
+.ends LM2576T5

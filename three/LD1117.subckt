@@ -1,0 +1,5 @@
+* simple LD1117 3.3V regulator model (approximation)
+.subckt LD1117V33 IN OUT GND
+E1 OUT GND VALUE = { V(IN,GND) > 3.5 ? 3.3 : V(IN,GND)-0.2 }
+Rout OUT GND 0.05
+.ends LD1117V33

@@ -1,0 +1,1 @@
+.model LED D(Is=1e-20 N=2.0 Rs=10 Cjo=5p Eg=2.0 Bv=5 Ibv=10u)

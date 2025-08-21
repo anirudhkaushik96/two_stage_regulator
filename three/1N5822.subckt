@@ -1,0 +1,1 @@
+.model D1N5822 D(Is=2u Rs=0.02 N=1.1 Cjo=200p M=0.333 Eg=0.69 Bv=40 Ibv=0.1u Tt=8n)
